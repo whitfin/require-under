@@ -3,6 +3,14 @@
 
 Simple module to allow registration of namespaces to make your require statements easier to understand. The code itself is tiny, it's just on `npm` to satisfy a need I can't seem to find in existing packages (whilst keeping things simple).
 
+### Installation
+
+This module is on npm, so feel free to grab from there:
+
+```shell
+$ npm i require-under
+```
+
 ### Examples
 
 ```javascript
