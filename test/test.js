@@ -1,7 +1,7 @@
-const should = require('should');
-const under = require('../lib/require-under');
+var should = require('should');
+var under = require('../lib/require-under');
 
-const requireUnder = under.wrap({
+var requireUnder = under.wrap({
   'a': __dirname + '/modules/a',
   'b': __dirname + '/modules/b',
   'c': __dirname + '/modules/b/c',
