@@ -16,5 +16,15 @@
   "keywords": [
     "modules",
     "require"
-  ]
+  ],
+  "scripts": {
+    "test": "mocha -R spec -u tdd test/"
+  },
+  "dependencies": {
+    "caller": "1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "4.0.1",
+    "should": "13.1.3"
+  }
 }

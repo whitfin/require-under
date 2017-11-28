@@ -1,4 +1,5 @@
 # require-under
+[![Unix Build Status](https://img.shields.io/travis/whitfin/require-under.svg?label=unix)](https://travis-ci.org/whitfin/require-under) [![Windows Build Status](https://img.shields.io/appveyor/ci/whitfin/require-under.svg?label=win)](https://ci.appveyor.com/project/whitfin/require-under)
 
 Simple module to allow registration of namespaces to make your require statements easier to understand. The code itself is tiny, it's just on `npm` to satisfy a need I can't seem to find in existing packages (whilst keeping things simple).
 
